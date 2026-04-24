@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>박성훈 | KB IT's Your Life 7기</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        min-height: 100vh;
+        font-family: 'Pretendard', 'Noto Sans KR', Arial, sans-serif;
+        background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+        color: #222;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 20px;
+      }
+
+      .card {
+        width: 100%;
+        max-width: 920px;
+        background: rgba(255, 255, 255, 0.92);
+        border-radius: 28px;
+        box-shadow: 0 24px 60px rgba(0, 0, 0, 0.18);
+        overflow: hidden;
+      }
+
+      .hero {
+        padding: 60px 48px;
+        background: linear-gradient(135deg, #ffcc00, #ff8a00);
+        color: white;
+        text-align: center;
+      }
+
+      .badge {
+        display: inline-block;
+        padding: 8px 16px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.22);
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+
+      .hero h1 {
+        font-size: 48px;
+        margin-bottom: 14px;
+        letter-spacing: -1px;
+      }
+
+      .hero p {
+        font-size: 20px;
+        opacity: 0.95;
+      }
+
+      .content {
+        padding: 44px 48px;
+      }
+
+      .section {
+        margin-bottom: 36px;
+      }
+
+      .section h2 {
+        font-size: 24px;
+        margin-bottom: 14px;
+        color: #ff8a00;
+      }
+
+      .section p {
+        font-size: 17px;
+        line-height: 1.8;
+        color: #444;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+        margin-top: 20px;
+      }
+
+      .item {
+        padding: 22px;
+        border-radius: 20px;
+        background: #fff7df;
+        border: 1px solid #ffe0a3;
+      }
+
+      .item strong {
+        display: block;
+        font-size: 18px;
+        margin-bottom: 8px;
+      }
+
+      .item span {
+        font-size: 14px;
+        color: #666;
+        line-height: 1.5;
+      }
+
+      .footer {
+        padding: 24px 48px;
+        background: #222;
+        color: white;
+        text-align: center;
+        font-size: 14px;
+      }
+
+      @media (max-width: 768px) {
+        .hero {
+          padding: 44px 28px;
+        }
+
+        .hero h1 {
+          font-size: 36px;
+        }
+
+        .content {
+          padding: 32px 28px;
+        }
+
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <main class="card">
+      <section class="hero">
+        <div class="badge">KB IT's Your Life 7기 · 22회차</div>
+        <h1>박성훈</h1>
+        <p>꾸준히 성장하는 예비 백엔드 개발자</p>
+      </section>
+
+      <section class="content">
+        <div class="section">
+          <h2>About Me</h2>
+          <p>
+            안녕하세요. KB IT's Your Life 7기 과정에 참여하고 있는 박성훈입니다.
+            프론트엔드와 백엔드 기초를 차근차근 학습하며, 실무에서 협업할 수
+            있는 개발자로 성장하고 있습니다.
+          </p>
+        </div>
+
+        <div class="section">
+          <h2>Learning</h2>
+          <div class="grid">
+            <div class="item">
+              <strong>Frontend</strong>
+              <span>HTML, CSS, JavaScript, Vue.js를 학습했습니다.</span>
+            </div>
+            <div class="item">
+              <strong>Backend</strong>
+              <span>Java와 서버 개발 기초를 공부하고 있습니다.</span>
+            </div>
+            <div class="item">
+              <strong>Collaboration</strong>
+              <span
+                >Git, GitHub, Issue, Branch, PR 흐름을 익히고 있습니다.</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Goal</h2>
+          <p>
+            단순히 코드를 작성하는 개발자가 아니라, 문제를 이해하고 협업을 통해
+            더 나은 결과물을 만드는 개발자가 되는 것이 목표입니다.
+          </p>
+        </div>
+      </section>
+
+      <footer class="footer">
+        © 2026 Park Seonghun · KB IT's Your Life 7기
+      </footer>
+    </main>
+  </body>
+</html>
