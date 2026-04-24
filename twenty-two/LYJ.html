@@ -1,0 +1,104 @@
+﻿<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LYJ 자기소개</title>
+    <style>
+      :root {
+        --bg: #f7f7f8;
+        --text-main: #222222;
+        --text-sub: #555555;
+        --point: #2f5d9f;
+        --line: #e4e4e7;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: "Segoe UI", "Malgun Gothic", sans-serif;
+        color: var(--text-main);
+        background: var(--bg);
+        padding: 32px 16px;
+      }
+
+      .container {
+        width: min(760px, 100%);
+        margin: 0 auto;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(30px, 5vw, 42px);
+      }
+
+      .intro {
+        margin-top: 8px;
+        color: var(--text-sub);
+        font-size: 18px;
+      }
+
+      .section {
+        margin-top: 22px;
+        padding-top: 16px;
+        border-top: 1px solid var(--line);
+      }
+
+      h2 {
+        margin: 0 0 10px;
+        font-size: 22px;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 20px;
+        line-height: 1.75;
+      }
+
+      .chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .chip {
+        border: 1px solid #d6dbe3;
+        background: #f3f4f6;
+        color: var(--point);
+        border-radius: 8px;
+        padding: 5px 10px;
+        font-weight: 500;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <h1>이유주</h1>
+      <p class="intro">만 24세</p>
+
+      <section class="section">
+        <h2>관심 분야</h2>
+        <div class="chips">
+          <span class="chip">AI</span>
+          <span class="chip">데이터</span>
+          <span class="chip">백엔드</span>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>좋아하는 것</h2>
+        <ul>
+          <li>강아지</li>
+          <li>야구</li>
+          <li>뜨개질</li>
+          <li>방탈출</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
