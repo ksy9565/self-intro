@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>한승연 자기소개</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: Arial, 'Noto Sans KR', sans-serif;
+        background-color: #f4f7fb;
+        color: #222;
+        line-height: 1.7;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 60px auto;
+        padding: 20px;
+      }
+
+      .card {
+        background-color: #fff;
+        border-radius: 16px;
+        padding: 40px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 10px;
+        color: #1f2937;
+      }
+
+      .subtitle {
+        text-align: center;
+        color: #6b7280;
+        margin-bottom: 32px;
+      }
+
+      .info-item {
+        display: flex;
+        padding: 14px 0;
+        border-bottom: 1px solid #e5e7eb;
+      }
+
+      .info-item:last-child {
+        border-bottom: none;
+      }
+
+      .label {
+        width: 120px;
+        font-weight: bold;
+        color: #2563eb;
+        flex-shrink: 0;
+      }
+
+      .value {
+        color: #374151;
+      }
+
+      @media (max-width: 600px) {
+        .container {
+          margin: 30px auto;
+        }
+
+        .card {
+          padding: 28px 22px;
+        }
+
+        .info-item {
+          flex-direction: column;
+          gap: 4px;
+        }
+
+        .label {
+          width: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1>자기소개</h1>
+        <p class="subtitle">한승연의 자기소개 페이지입니다.</p>
+
+        <div class="info-item">
+          <div class="label">이름</div>
+          <div class="value">한승연</div>
+        </div>
+
+        <div class="info-item">
+          <div class="label">소속</div>
+          <div class="value">숭실대학교 AI융합학부</div>
+        </div>
+
+        <div class="info-item">
+          <div class="label">관심 분야</div>
+          <div class="value">백엔드 개발</div>
+        </div>
+
+        <div class="info-item">
+          <div class="label">목표</div>
+          <div class="value">Spring Boot 백엔드 개발자</div>
+        </div>
+
+        <div class="info-item">
+          <div class="label">기술</div>
+          <div class="value">Django, Spring Boot, MySQL, Docker, Redis</div>
+        </div>
+
+        <div class="info-item">
+          <div class="label">프로젝트</div>
+          <div class="value">
+            소셜 온라인 타임캡슐 일기 앱, 대학생 미팅 주선 앱
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
